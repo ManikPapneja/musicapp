@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Player from "../src/components/Player"
+import Player from "./Player"
 import { useState } from "react";
 export default function Home() {
- 
+
  const [currentSongIndex, setCurrentSongIndex] = useState(0);
  const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1);
  return (
